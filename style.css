@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;     
+    justify-content: center; 
+}
+
+
+.container__content {
+
+    font-size: 14px;
+    letter-spacing: 4px; 
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin: 10px; 
+}
+
+
+.button {
+
+    background-color: lightblue; 
+    border: solid black 1px; 
+    border-radius: 5px;
+    padding: 10px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19); 
+
+}
