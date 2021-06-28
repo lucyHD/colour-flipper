@@ -34,3 +34,11 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19); 
 
 }
+
+#squareOfColour {
+    margin: 10px; 
+    background-color: red; 
+    height: 100px; 
+    width: 100px; 
+    border-radius: 20px; 
+}
