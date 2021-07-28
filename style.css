@@ -1,8 +1,29 @@
 body {
     background-color: lightblue;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
+.nav {
+    background-color: black; 
+    color: white; 
+    position: fixed; 
+    width: 100vw; 
+}
+
+h4 {
+    margin-left: 10%; 
+}
+
+.nav-list {
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+}
+
+.nav-list li {
+    padding: 7px; 
+}
 
 .container {
     height: 100vh; 
@@ -16,12 +37,14 @@ body {
 .container__content {
 
     font-size: 14px;
+    text-align: center;
     letter-spacing: 4px; 
     background-color: black; 
     color: white; 
     padding: 10px; 
     border-radius: 5px; 
     margin: 10px; 
+    min-width: 300px; 
 }
 
 
@@ -35,10 +58,3 @@ body {
 
 }
 
-#squareOfColour {
-    margin: 10px; 
-    background-color: red; 
-    height: 100px; 
-    width: 100px; 
-    border-radius: 20px; 
-}
